@@ -28,8 +28,15 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  //border-top: 1px solid #e5e5e5;
+  bottom:0px;
+  position:absolute;
 }
+.footer-pad {
+    padding-left:11%;
+    font-size: 75%;
+}
+
 
 /* Customize container */
 @media (min-width: 768px) {
